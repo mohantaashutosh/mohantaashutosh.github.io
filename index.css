@@ -1,20 +1,26 @@
 *{
     box-sizing: border-box;
+    transition-delay:0;
+    transition-duration:0.5s;
 }
 body{
-    background-color: black;
     margin: 0;
-}
-.nav-bar{
-    background-color: darkgreen;
-    height:50px;
+    font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    vertical-align: middle;
 }
-.nav-bar-content{
-    display:inline-block;
-    height:100%;
-    max-width: 600px;
-    text-align: center;
-    width: 100%;
+.profile{
+    width:30vh;
+    height:30vh;
+    min-width:100px;
+    min-height:100px;
+    margin-top:15vh;
+    border-radius: 400px;
+}
+h1{
+    font-size: 4vh;
+    margin-bottom: 0;
+}
+h2{
+    font-size: 3vh;
+    margin-top: 0;
 }

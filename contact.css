@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    transition-duration:0.5s;
+}
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+h1{
+    font-size: 4vh;
+    margin: 5px;
+}
+.form{
+    background-color: grey;
+    display: inline-block;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 8vh;
+    padding:50px;
+}
+.form input{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    outline:none;
+    padding:5px;
+}
+.form #full-name, .form #email, .form #subject, .form #message{
+    padding-left:10px;
+    max-width: 65vw;
+    width:450px;
+} 
+.form textarea{
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    height:100px;
+    outline:none;
+    padding:5px;
+    resize: none;
+    width:400px;    
+}
+.form textarea:focus{
+    height: 150px;
+}
